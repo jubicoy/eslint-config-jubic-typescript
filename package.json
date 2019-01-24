@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-jubic-typescript",
+  "version": "1.0.0",
+  "description": "ESLint TypeScript config used at Jubic Oy",
+  "author": "Jubic Oy",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "1.1.0",
+    "@typescript-eslint/parser": "1.1.0",
+    "eslint": "5.12.1",
+    "eslint-config-jubic": "1.0.1",
+    "typescript": "^3.2.4"
+  }
+}
