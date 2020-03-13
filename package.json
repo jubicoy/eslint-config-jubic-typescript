@@ -6,10 +6,12 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "1.12.0",
-    "@typescript-eslint/parser": "1.12.0",
-    "eslint": "6.0.1",
-    "eslint-config-jubic": "jubicoy/eslint-config-jubic#master",
-    "typescript": "^3.5.3"
+    "eslint-config-jubic": "jubicoy/eslint-config-jubic#master"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "eslint": "6.x",
+    "typescript": "3.x"
   }
 }
