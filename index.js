@@ -7,17 +7,9 @@ module.exports = {
   'plugins': ['@typescript-eslint'],
   'rules': {
     '@typescript-eslint/indent': ['error', 2],
-    '@typescript-eslint/member-delimiter-style': ['error', {
-      'multiline': {
-        'delimiter': 'comma',
-        'requireLast': false
-      },
-      'singleline': {
-        'delimiter': 'comma',
-        'requireLast': false
-      }
-    }],
     '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/explicit-member-accessibility': 'off'
+    '@typescript-eslint/explicit-member-accessibility': 'off',
+    "semi": "off",
+    "@typescript-eslint/semi": ["error"]
   }
 }
